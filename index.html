@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Crstals Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron|VT323" rel="stylesheet">
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="row text-center">
+			<h1 id="marquee">Crystals Collector</h1>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-offset-2 col-sm-8" id="instructions">
+				<div class="page-header">
+				  <h1>Instructions</h1>
+				</div>
+				<p>In the "Match this Number" box, you will be given a random number at the start of the game.</p>
+				<p>There are four crystals that each have a random value. During a game, each crystal's value won't change. By clicking on a crystal you will add that crystal's value to your total score.</p>
+				<p>The value of each crystal is hidden from you. You'll have to figure out each crystal's value by clicking on it.
+				<p>You win the game by matching your total score to the random number; you lose the game if your total score exceeds the random number.</p>
+				<p>Once you complete a game, a new game will begin. A new random number will be generated and a new random value will be assigned to each crystal.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="panel panel-default text-center">
+						  <div class="panel-heading">
+						    <h3 class="panel-title">Match this Number</h3>
+						  </div>
+						  <div class="panel-body" id="gameNumber">
+						  </div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="panel panel-default text-center">
+						  <div class="panel-heading">
+						    <h3 class="panel-title">Your Score</h3>
+						  </div>
+						  <div class="panel-body" id="yourScore">
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="panel panel-default text-center" id="buttonBody">
+					<div class="panel-heading">
+						<h3 class="panel-title">Each Jewel has a Random Value</h3>
+					</div>
+					<div class="panel-body">
+						 <div id="buttons">
+							<button id="diamond"></button>
+							<button id="sapphire"></button>
+							<button id="ruby"></button>
+							<button id="emerald"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-offset-3 col-sm-6" id="wrapper">
+				<div class="panel panel-default text-center">
+					<div class="panel-heading">
+						<h3 class="panel-title" id="result">Wins and Losses</h3>
+					</div>
+					<div class="panel-body" id="wins-losses">
+						Wins: 0
+						<br>
+						Losses: 0
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-default navbar-fixed-bottom text-center" id="footer">
+		<div class="container text-center" id="footerText">
+	    	&copy; Copyright 2017 Brian Manchester
+	    	<br>
+	    	Enjoyed the experience? See more work by the same developer <a href="https://bmanch.github.io/Bootstrap-Portfolio/" target="blank">here</a>.
+	    </div>
+	</nav>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

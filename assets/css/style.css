@@ -1,0 +1,137 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url("../images/ep_naturalblack.png");
+	position: relative;
+	min-height: 100%;
+	font-family: 'VT323', monospace;
+}
+
+#marquee {
+	color: #F6F7EB;
+	font-size: 85px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#instructions {
+	background: #F6F7EB;
+	color: #454955;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 35px;
+	font-size: 18px;
+}
+
+button {
+	width: 100px;
+	height: 100px;
+	border-style: solid;
+	border-color: #E26D5C;
+	border-width: 2px;
+	background-color: #F6F7EB;
+}
+
+button:focus, button:active {
+	outline: none;
+	border-color: #E26D5C;
+	border-width: 2px;
+}
+
+.panel-default {
+	border-color: #E26D5C;
+	border-width: 2px;
+	font-size: 50px;
+	background: #454955;
+	color: #F6F7EB;
+	margin-bottom: 50px;
+}
+
+.panel-default .panel-heading {
+	background: #F6F7EB;
+	border-color: #E26D5C;
+	border-width: 0 0 2px 0;
+}
+
+.panel-title {
+	font-size: 30px;
+	color: #454955;
+}
+
+#buttonBody {
+	background: none;
+}
+
+#diamond {
+	background-image: url("../images/diamond.png");
+	background-size: 90px 90px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-right: 20px;
+}
+
+#sapphire {
+	background-image: url("../images/sapphire.png");
+	background-size: 90px 90px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-right: 20px;
+}
+
+#ruby {
+	background-image: url("../images/ruby.png");
+	background-size: 75px 75px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-right: 20px;
+}
+
+#emerald {
+	background-image: url("../images/emerald.png");
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#wins-losses {
+	font-size: 30px;
+}
+
+#wrapper {
+	overflow: auto;
+	margin-bottom: 80px;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	background: #F6F7EB;
+	border-style: solid;
+	border-color: #E26D5C;
+	border-width: 2px 0 0 0;
+}
+
+#footerText {
+	font-family: 'Orbitron', sans-serif;
+	color: #454955;
+	padding: 10px 0 10px 0;
+}
+
+a {
+	color: #454955;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	background: #E26D5C;
+	color: #454955;
+}
+
